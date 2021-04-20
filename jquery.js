@@ -118,6 +118,20 @@ function myvalidation(){
         //error Show
         setErrorFor(cpassword,'** password not match !')
     }
+
+
+   // swite alert 
+    if(usernameValue != '' && emailValue != '' && password1Value != '' && pnumberValue != '' &&password1Value !='' &&password1Value ==password2Value) {
+        swal({
+            title:  "Hi "+usernameValue,
+            text: "Thanks for Contacting us !",
+            icon: "success",
+            button: "ok",
+        });
+        //$( "#contact_form_id" ).submit();
+        //location.reload();
+  
+    }
     
 
 
